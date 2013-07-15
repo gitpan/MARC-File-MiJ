@@ -6,7 +6,7 @@
    "dynamic_config" : 1,
    "generated_by" : "Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921",
    "license" : [
-      "bsd"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -34,18 +34,18 @@
    "provides" : {
       "MARC::File::MiJ" : {
          "file" : "lib/MARC/File/MiJ.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "MARC::Record::MiJ" : {
          "file" : "lib/MARC/Record/MiJ.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
-         "http://www.opensource.org/licenses/bsd-license.php"
+         "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

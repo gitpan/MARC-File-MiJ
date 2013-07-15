@@ -8,7 +8,7 @@ configure_requires:
   Module::Build: 0
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921'
-license: bsd
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -16,13 +16,13 @@ name: MARC-File-MiJ
 provides:
   MARC::File::MiJ:
     file: lib/MARC/File/MiJ.pm
-    version: 0.01
+    version: 0.02
   MARC::Record::MiJ:
     file: lib/MARC/Record/MiJ.pm
-    version: 0.01
+    version: 0.02
 requires:
   JSON: 0
   ex::monkeypatched: 0
 resources:
-  license: http://www.opensource.org/licenses/bsd-license.php
-version: 0.01
+  license: http://dev.perl.org/licenses/
+version: 0.02
