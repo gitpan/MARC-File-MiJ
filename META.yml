@@ -16,13 +16,15 @@ name: MARC-File-MiJ
 provides:
   MARC::File::MiJ:
     file: lib/MARC/File/MiJ.pm
-    version: 0.02
+    version: 0.03
   MARC::Record::MiJ:
     file: lib/MARC/Record/MiJ.pm
-    version: 0.02
+    version: 0.03
 requires:
   JSON: 0
+  MARC::File: 0
+  MARC::Record: 0
   ex::monkeypatched: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
